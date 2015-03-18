@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8" />
+        <title>Projecto 1</title>
+        <section>
+        <style type = "text/css">
+        th {
+        	padding: 1em;
+        	background-color:#999;
+            text-align: center;
+
+        }
+        td {
+        	padding: 1em;
+        	background-color:#CCC;
+            text-align: center;
+            position: relative;
+
+
+
+        }
+        table {
+        	width:100%;
+            text-align: center;
+
+
+        }
+        h1,h2 {
+        	text-align: center;
+
+        }
+        </style>
+    </head>
+    <body>
+    	<h1>Aluno n.º 29035, Exercício n.º 1</h1>
+    	<h2>Computação Gráfica, 2014-15</h2>
+    	<table>
+			<tr>
+				<th>Original</th>
+				<th>Reprodução</th>
+			</tr>
+    		<tr>
+				<td><img src="olapisrevelador.jpg"></td>
+
+                <td>
+                    <div id="canvasesdiv" style="position:relative; width:700px; height:305px;">
+                        <canvas id="layer1"
+                        style="z-index: 1; 
+                        position:absolute;
+                        left:115px;
+                        top:-2px;"height="305px" width="700px">
+                        </canvas>
+                        <canvas id="layer2"
+                        style="z-index: 2;
+                        position:absolute;
+                        left:115px;
+                        top:-2px;
+                        " height="305px" width="700px">
+                        </canvas>
+                        <canvas id="layer3"
+                        style="z-index: 3;
+                        position:absolute;
+                        left:115px;
+                        top:-2px;
+                        " height="305px" width="700px">
+                        </canvas>
+                        <canvas id="layer4"
+                        style="z-index: 4;
+                        position:absolute;
+                        left:115px;
+                        top:-2px;
+                        " height="305px" width="700px">
+                        </canvas>
+                        <canvas id="layer5"
+                        style="z-index: 5;
+                        position:absolute;
+                        left:115px;
+                        top:-2px;
+                        " height="305px" width="700px">
+                        </canvas>
+                    </div>
+                    <script src="olapisrevelador.js" onload="main();"></script>
+                </td>
+			</tr>
+    	</table>
+    </body>
+</html>
