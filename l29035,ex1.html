@@ -2,87 +2,50 @@
 <html>
     <head>
         <meta charset = "utf-8" />
-        <title>Projecto 1</title>
-        <section>
+        <title>E1A29035</title>
         <style type = "text/css">
+        body {
+            background-color: white;
+            font-family: sans-serif;
+        }
         th {
-        	padding: 1em;
-        	background-color:#999;
-            text-align: center;
-
+            padding: 1em;
+            background-color:#9F1C33;
+            color:white;
         }
         td {
-        	padding: 1em;
-        	background-color:#CCC;
+            padding: 0.5em;
+            background-color: #EEE;
+            width: 50%;
             text-align: center;
-            position: relative;
-
-
-
         }
         table {
-        	width:100%;
-            text-align: center;
-
-
+            width:100%;
         }
         h1,h2 {
-        	text-align: center;
-
+            text-align: center;
         }
         </style>
     </head>
     <body>
-    	<h1>Aluno n.º 29035, Exercício n.º 1</h1>
-    	<h2>Computação Gráfica, 2014-15</h2>
-    	<table>
-			<tr>
-				<th>Original</th>
-				<th>Reprodução</th>
-			</tr>
-    		<tr>
-				<td><img src="olapisrevelador.jpg"></td>
-
+        <h1>Exercício n.º 1 &mdash; Aluno n.º 29035</h1>
+        <table>
+            <tr>
+                <th>Original</th>
+                <th>Reprodução</th>
+            </tr>
+            <tr>
+                <td><img src=".\images\olapisrevelador.jpg" style = "width:100%"></img></td>
                 <td>
-                    <div id="canvasesdiv" style="position:relative; width:700px; height:305px;">
-                        <canvas id="layer1"
-                        style="z-index: 1; 
-                        position:absolute;
-                        left:115px;
-                        top:-2px;"height="305px" width="700px">
-                        </canvas>
-                        <canvas id="layer2"
-                        style="z-index: 2;
-                        position:absolute;
-                        left:115px;
-                        top:-2px;
-                        " height="305px" width="700px">
-                        </canvas>
-                        <canvas id="layer3"
-                        style="z-index: 3;
-                        position:absolute;
-                        left:115px;
-                        top:-2px;
-                        " height="305px" width="700px">
-                        </canvas>
-                        <canvas id="layer4"
-                        style="z-index: 4;
-                        position:absolute;
-                        left:115px;
-                        top:-2px;
-                        " height="305px" width="700px">
-                        </canvas>
-                        <canvas id="layer5"
-                        style="z-index: 5;
-                        position:absolute;
-                        left:115px;
-                        top:-2px;
-                        " height="305px" width="700px">
-                        </canvas>
-                    </div>
-                    <script src="olapisrevelador.js" onload="main();"></script>
+                    <canvas id="myCanvas" 
+                    width="700px" 
+                    height="305px" 
+                    style = "width:100%"> 
+                    </canvas>
+                    <script src="olapisrevelador.js" onload = "main();"> </script>
                 </td>
-			</tr>
-    	</table>
+            </tr>
+        </table>
+        <h2>Engenharia Informática, Computação Gráfica &mdash; 2014-15</h2>
     </body>
 </html>
