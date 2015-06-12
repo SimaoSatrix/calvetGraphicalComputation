@@ -1130,6 +1130,8 @@ function pre_load_images(){
 }
 
 function draw_Quadro(){
+	window.requestAnimationFrame(draw_Quadro);
+
 	//fundo, barra com textura, lapis a descoberto e nuvens(verde)
 	ctx.save();
 	camada_base();
@@ -1165,8 +1167,7 @@ function draw_Quadro(){
 	camada_ultima();
 	ctx.restore();
 
-	window.requestAnimationFrame(draw_Quadro);
-
+	
 }
 
 function main(){
